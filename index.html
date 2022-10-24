@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Vaibhav's Calculator
+  </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body background=cal2.WEBP>
+
+  <div class="Vaibhav">
+  </br>
+    <form name="Calci">
+      <div class="label">
+        &nbsp; VV49X CALCULATOR
+      </div>
+      <input type="text" name="display">
+    </br></br></br>
+      <input type="button" value="1" onclick="Calci.display.value+='1'">
+      <input type="button" value="2" onclick="Calci.display.value+='2'">
+      <input type="button" value="3" onclick="Calci.display.value+='3'">
+      &nbsp;&nbsp;
+      <input type="button" value="+" onclick="Calci.display.value+='+'" id="plus">
+      <input type="button" value="-" onclick="Calci.display.value+='-'" id="minus">
+   </br></br>
+      <input type="button" value="4" onclick="Calci.display.value+='4'">
+      <input type="button" value="5" onclick="Calci.display.value+='5'">
+      <input type="button" value="6" onclick="Calci.display.value+='6'">
+      &nbsp;&nbsp;
+      <input type="button" value="*" onclick="Calci.display.value+='*'" id="mul">
+      <input type="button" value="/" onclick="Calci.display.value+='/'" id="div">
+    </br></br>
+       <input type="button" value="7" onclick="Calci.display.value+='7'">
+       <input type="button" value="8" onclick="Calci.display.value+='8'">
+       <input type="button" value="9" onclick="Calci.display.value+='9'">
+       &nbsp;&nbsp;
+       <input type="button" value="=" onclick="Calci.display.value=eval(Calci.display.value)" id="equal">
+
+     </br></br>
+        <input type="button" value="00" onclick="Calci.display.value+='00'">
+        <input type="button" value="0" onclick="Calci.display.value+='0'">
+        <input type="button" value="." onclick="Calci.display.value+='.'">
+        &nbsp;&nbsp;
+        <input type="button" value="DEL" onclick="Calci.display.value=' '" id="CE">
+
+        <div class="footer-bottom" >
+        &copy; virtual calculator by||Vaibhav Vetal
+        </div>
+    </form>
+
+  </div>
+</body>
+<style>
+body
+{
+  background:
+}
+
+.Vaibhav
+{
+  border:1px solid black;
+  width:265px;
+  height:400px;
+  margin-top:120px;
+  margin-left:500px;
+  padding:10px;
+  background:#eab873;
+  border-radius: 15px;
+}
+.footer-bottom
+{
+  margin-top:27px;
+  margin-left:5px;
+  width:260px;
+  background:white;
+  color:black;
+  font-weight:normal;
+}
+.label
+{
+  width:170px;
+  background:black;
+  color:white;
+
+}
+input[type=text]{
+  background:skyblue;
+  width:250px;
+  height:40px;
+  padding:5px;
+  font-size:20px;
+  font-weight: bold;
+  margin-top:25px;
+  border-radius:6px;
+}
+input[type=button]
+{
+
+
+width:50px;
+height:40px;
+background:white;
+color:black;
+border-radius:25px;
+}
+input[type=button]:hover
+{
+
+  background-color:orange;
+  box-shadow: 0px 2px 2px 2px black;
+
+
+}
+
+#plus
+{
+  width:40px;
+  height:40px;
+  background:black;
+  color:orange;
+  border-radius:5px
+}
+#minus
+{
+  width:40px;
+  height:40px;
+  background:black;
+  color:orange;
+  border-radius:5px
+}
+#mul
+{
+  width:40px;
+  height:40px;
+  background:black;
+  color:orange;
+  border-radius:5px
+}
+#div
+{
+  width:40px;
+  height:40px;
+  background:black;
+  color:orange;
+  border-radius:5px
+}
+#equal
+{
+  width:85px;
+  height:40px;
+  background:green;
+  color:white;
+  border-radius:5px
+}
+#CE
+{
+  width:85px;
+  height:40px;
+  background:red;
+  color:white;
+  border-radius:5px
+}
+
+
+</style>
+</html>
